@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+    <title>Chrome_extension</title>
+    <style>
+        body {
+            min-width: 400px;
+            padding: 10px;
+        }
+        
+        #input-el {
+            border: solid 1px grey;
+            width: 500px;
+            height: 50px;
+        }
+        
+        #input-btn {
+            padding-right: 10px;
+            background-color: green;
+            width: 120px;
+            height: 50px;
+            color: white;
+        }
+        
+        #tab-btn {
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: green;
+            width: 120px;
+            height: 50px;
+            color: white;
+        }
+        
+        #delete-btn {
+            color: green;
+            background-color: white;
+            width: 120px;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="input-el">
+    <br>
+    <ul id="ul-el"></ul>
+    <button id="input-btn">Save input</button>
+    <button id="delete-btn">Delete all</button>
+    <button id="tab-btn">Save tab</button>
+
+
+    <script src="extension.js"></script>
+</body>
+
+</html>
